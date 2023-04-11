@@ -1,0 +1,47 @@
+baseURL = ""
+languageCode = "ja"
+title = "雑記置き場"
+theme = "anubis"
+paginate = 3
+
+disqusShortname = ""
+googleAnalytics = ""
+
+[author]
+name = "yu-kuri"
+
+[params]
+author = "yu-kuri"
+description = "日々の雑記"
+dateFormat = "2006-01-02"
+paginationSinglePost = true
+style = "dark"
+readMore = false
+readNextPosts = 2
+copyCodeButton = true
+rssAsSocialIcon = false
+
+[[params.social]]
+id = "github"
+name = "yu-kuri"
+
+[menu]
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 1
+
+[[menu.main]]
+name = "Archive"
+identifier = "archive"
+url = "/posts/"
+weight = 2
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[markup.goldmark.renderer]
+unsafe = true
