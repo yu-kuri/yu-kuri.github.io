@@ -13,6 +13,7 @@ pygmentsUseClasses = true
   avatar = "/images/avatar.png"
   favicon = "/images/avatar.png"
   headerIcon = "/images/avatar.png"
+  enableSearch = true
   rss = true
   lastmod = true
 
@@ -25,3 +26,6 @@ pygmentsUseClasses = true
 
 [markup.goldmark.renderer]
   unsafe = true
+
+[outputs]
+  home = ["html", "json"]
