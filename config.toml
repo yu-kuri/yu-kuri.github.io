@@ -11,6 +11,8 @@ pygmentsUseClasses = true
   github = "yu-kuri"
   url = "https://yu-kuri.github.io"
   avatar = "/images/avatar.png"
+  favicon = "/images/avatar.png"
+  headerIcon = "/images/avatar.png"
   rss = true
   lastmod = true
 
