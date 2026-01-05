@@ -10,6 +10,7 @@ pygmentsUseClasses = true
   description = "日々の雑記"
   github = "yu-kuri"
   url = "https://yu-kuri.github.io"
+  avatar = "/images/avatar.png"
   rss = true
   lastmod = true
 
